@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"><style>
+  * { margin:0; padding:0; box-sizing:border-box; }
+  body {
+    width:1080px; height:1080px; overflow:hidden;
+    background:#f7f2e7; color:#1b2a4a;
+    font-family:'Noto Serif', Georgia, serif;
+    display:flex; align-items:center; justify-content:center;
+  }
+  .paper {
+    width:1000px; height:1000px; background:#fbf7ec;
+    border:6px solid #1b2a4a; outline:2px solid #1b2a4a; outline-offset:10px;
+    padding:26px 56px 22px; display:flex; flex-direction:column; align-items:center;
+    text-align:center; position:relative;
+  }
+  .court { font-size:28px; letter-spacing:9px; font-weight:700; }
+  .court2 { font-size:22px; letter-spacing:6px; margin-top:3px; color:#3a4a6b; }
+  .seal { width:118px; height:118px; margin-top:10px; }
+  .seal img { width:100%; height:100%; display:block; }
+  h1 { font-size:108px; line-height:1.0; letter-spacing:10px; margin-top:6px; }
+  .sub { font-size:46px; letter-spacing:12px; margin-top:2px; }
+  .rule { width:100%; border-top:3px solid #1b2a4a; margin:14px 0 10px; }
+  .case { font-size:32px; letter-spacing:3px; }
+  .parties { margin-top:10px; line-height:1.22; }
+  .party { font-size:46px; font-weight:700; }
+  .vs { font-size:30px; font-style:italic; color:#3a4a6b; }
+  .charge { margin-top:12px; font-size:42px; font-weight:700; color:#b3122e; letter-spacing:1px; }
+  .summoned { margin-top:10px; font-size:30px; letter-spacing:4px; }
+  .date { font-size:56px; font-weight:700; letter-spacing:2px; margin-top:2px; }
+  .fine { margin-top:8px; font-size:38px; }
+  .fine b { color:#b3122e; }
+  .paid {
+    margin-top:auto; width:100%; background:#c40e7a; color:#fff;
+    font-family:'Noto Sans', sans-serif; font-weight:700;
+    font-size:33px; line-height:1.25; padding:12px 10px; border-radius:6px;
+    white-space:nowrap;
+  }
+  .foot { margin-top:8px; font-family:'Noto Sans', sans-serif; font-size:26px; letter-spacing:2px; color:#3a4a6b; }
+</style></head>
+<body>
+  <div class="paper">
+    <div class="court">STATE OF LEONIDA</div>
+    <div class="court2">VICE CITY COURTHOUSE</div>
+    <div class="seal"><img src="./ghost-mark.png" alt="make.fun ghost seal"></div>
+    <h1>SUMMONS</h1>
+    <div class="sub">FOR JURY DUTY</div>
+    <div class="rule"></div>
+    <div class="case">CASE No. VI-2013</div>
+    <div class="parties">
+      <div class="party">ROCKSTAR GAMES</div>
+      <div class="vs">vs.</div>
+      <div class="party">EVERY GTA FAN</div>
+    </div>
+    <div class="charge">CHARGE: WAITING 13 YEARS</div>
+    <div class="summoned">YOU ARE SUMMONED</div>
+    <div class="date">NOVEMBER 19, 2026</div>
+    <div class="fine">FINE: <b>$4,811</b></div>
+    <div class="paid">PAID IN FULL &mdash; my AI agent&rsquo;s make.fun bounty</div>
+  </div>
+</body></html>
